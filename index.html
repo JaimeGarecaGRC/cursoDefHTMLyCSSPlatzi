@@ -33,19 +33,104 @@
                 <li> Soy otro michi <3</li>
                 <a href="./html/ejercicio1.html">Soy un michi</a>
             </ol> 
-            <h4>RETOS DE LA CLASE</h4>
-            <ol>
-                <a href="./html/ejercicio1.html">Practico 1</a>
-                <a href="./html/ejercicio2.html">Practico 2</a>
-            </ol>
             <section>
                 <video controls preload="auto">
                     <source src="videos/michi.mp4#t=10,15" /> 
                 </video>
             </section>
-        </main>
-        <footer> <!-- Footer de la pagina-->
+            <section>
+                <form action="">
+                    <label for="nombre">
+                        <span>Cual es tu nombre?</span>
+                        <input type="text" id="nombre" placeholder="Tu nombre"/>
+                    </label>
+                    <label for="fecha">
+                        <span>Cuando empezaste a amar a los michis?</span>
+                        <input type="date" id="fecha"/>
+                    </label>
+                    <label for="horario">
+                        <span>En que horario apachurras a tus michis?</span>
+                        <input type="time" id="horario"/>
+                    </label>
+                </form>
+            </section>
+            <section>
+             <!-- <form action="">
+                    <label for="hora">
+                        <span>Hora</span>
+                        <input type="time" id="hora" name="hora"/>
+                    </label>
+                    <label for="dia">
+                        <span>Dia</span>
+                        <input type="date" id="dia" name="dia"/>
+                    </label>
+                    <label for="semana">
+                        <span>Semana</span>
+                        <input type="week" id="semana" name="semana"/>
+                    </label>
+                    <label for="mes">
+                        <span>Mes</span>
+                        <input type="month" id="mes" name="mes"/>
+                    </label>
+                    <input type="submit" />
+                </form> 
+                <form action="">
+                    <label for="calendario">
+                        <span>Fecha</span>
+                        <input type="datetime-local" id="calendario" name="calendario"/>
+                    </label>
+                    <input type="submit"/>
+                </form> -->
+                <!-- <form action="">
+                    <label for="nombre">
+                        <span>Nombre</span>
+                        <input type="text" id="nombre" name="nombre" autocomplete="name" required/>
+                    </label>
+                    <label for="correo">
+                        <span>Correo</span>
+                        <input type="email" id="correo" name="correo" autocomplete="email" required/>
+                    </label>
+                    <label for="pais">
+                        <span>Pais</span>
+                        <input type="text" id="pais" name="pais" autocomplete="country" required/>
+                    </label>
+                    <label for="cp">
+                        <span>Codigo Postal</span>
+                        <input type="text" id="cp" name="cp" autocomplete="postal-code" required/>
+                    </label>
+                    <input type="submit"/> -->
+                    <form action="">
+                        <span>Mi animal favorito es el</span>
+                        <select name="animales" id="">
+                            <option value="Michi">Michi</option>
+                            <option value="Dogo">Dogo</option>
+                            <option value="Fichi">Fichi</option>
+                            <option value="Hamster">Hamster</option>
+                        </select>
+                        <span>pero en realidad me gustan mas los</span>
+                        <input list="animal" required/>
+                        <datalist id="animal">
+                            <option value="Michis"></option>
+                            <option value="Michisitos"></option>
+                            <option value="Michisotes"></option>
+                            <option value="Michisaurios"></option>
+                            <option value="Michichitos"></option>
+                        </datalist>
+                        <input type="submit"/>
+                        <button type="submit">Este es otro boton</button>
+                    </form>
+                    
+                </form>
+            </section>
             
+        </main>
+
+        <footer> <!-- Footer de la pagina-->
+            <h4>RETOS DE LA CLASE</h4>
+            <ol>
+                <li><a href="./html/ejercicio1.html">Practico 1</a></li>
+                <li><a href="./html/ejercicio2.html">Practico 2</a></li>
+            </ol>
         </footer>
         <div></div> <!-- No hacer toda la estructura solo con div, aunque esta sea un comodin-->
     </body>
