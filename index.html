@@ -6,43 +6,43 @@
         <meta name="robots" content="index, follow" />
         <title>MICHIS MICHIS MICHIS</title>
         <meta name="viewport" content="width=device-width, inictial-scale=1.0" />
-        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/stye.css" />
     <head>
     <body>
        <header> <!-- Header de la pagina-->
-            <nav>
-            </nav> <!-- Barra de Navegacion-->
+            <nav> <!-- Barra de Navegacion-->
+            </nav> 
        </header> 
         <main>
             <section>
                 <article>
-                    <p>Vivan los michis</p>
-                    <h1>MICHI MICHI MICHI</h1>
+                    <p>Vivan los michis</p> <!-- Esto es un parraffo-->
+                    <h1>MICHI MICHI MICHI</h1> <!-- Esto es un titulo-->
                 </article>
             </section>
             <section>
-                <figure>
-                    <img src="./img/small.jpg" alt="Es una imagen de un gatito">
-                    <figcaption>Es un king michi tal cual</figcaption>
+                <figure> <!-- Parte de la buena sintaxis de html es el orden de etiquetas de figure, img, figcaption -->
+                    <img src="./img/small.jpg" alt="Es una imagen de un gatito"> <!--Link de la imagen-->
+                    <figcaption>Es un king michi tal cual</figcaption> <!--Texto en caso de que la imagen falle-->
                 </figure>
             </section>
             <ul> <!-- Unorder List para listas desordenadas-->
-                <li> Soy un gatito <3 </li> <!-- list Item para elementos de una lista-->
+                <li> Soy un gatito <3 </li> <!-- list Item para elementos de una lista-->                                                                                                                   
             </ul> 
             <ol> <!-- Order List para listas ordenadas-->
                 <li> Soy otro michi <3</li>
-                <a href="./html/ejercicio1.html">Soy un michi</a>
+                <a href="./html/ejercicio1.html">Soy un michi</a> <!--Un ancla para redirigir a un determinado link-->
             </ol> 
             <section>
-                <video controls preload="auto">
-                    <source src="videos/michi.mp4#t=10,15" /> 
+                <video controls preload="auto"> <!-- Asi marcamos que subiremos un video en la pagina-->
+                    <source src="videos/michi.mp4#t=10,15" /> <!--Aqui ponemos el link del video-->
                 </video>
             </section>
             <section>
-                <form action="">
-                    <label for="nombre">
-                        <span>Cual es tu nombre?</span>
-                        <input type="text" id="nombre" placeholder="Tu nombre"/>
+                <form action=""> <!--Esta es la forma basica de hacer un formulario, form, label, span e input-->
+                    <label for="nombre"> <!--Esta va indicado elemento por elemento del formulario-->
+                        <span>Cual es tu nombre?</span> <!--Este es el texto del formulario-->
+                        <input type="text" id="nombre" placeholder="Tu nombre"/> <!--Marca la entrada de informacion para el usuario-->
                     </label>
                     <label for="fecha">
                         <span>Cuando empezaste a amar a los michis?</span>
@@ -52,10 +52,13 @@
                         <span>En que horario apachurras a tus michis?</span>
                         <input type="time" id="horario"/>
                     </label>
+                    <input type="submit" value="Este es el texto"/> <!-- Este es un boton para mandar la informacion del formulario-->
                 </form>
             </section>
             <section>
-             <!-- <form action="">
+
+            <!--Muestra los distintos tipos de imput que puede haber para tomar tiempos, cual dato necesitaras dependera de ti-->
+             <!-- <form action=""> 
                     <label for="hora">
                         <span>Hora</span>
                         <input type="time" id="hora" name="hora"/>
@@ -81,6 +84,9 @@
                     </label>
                     <input type="submit"/>
                 </form> -->
+
+
+                <!--Este form muestra el uso de los atributos autocomplete y required-->
                 <!-- <form action="">
                     <label for="nombre">
                         <span>Nombre</span>
@@ -99,6 +105,8 @@
                         <input type="text" id="cp" name="cp" autocomplete="postal-code" required/>
                     </label>
                     <input type="submit"/> -->
+
+                    <!--Aqui esta un ejemplo de dos formas de poder dar multiples opciones al usuario, usa select cuando hay pocas opciones Y usa datalist cuando des muchas opciones-->
                     <form action="">
                         <span>Mi animal favorito es el</span>
                         <select name="animales" id="">
@@ -130,6 +138,7 @@
             <ol>
                 <li><a href="./html/ejercicio1.html">Practico 1</a></li>
                 <li><a href="./html/ejercicio2.html">Practico 2</a></li>
+                <li><a href="./html/clasecss.html"> Clase css</a></li>
             </ol>
         </footer>
         <div></div> <!-- No hacer toda la estructura solo con div, aunque esta sea un comodin-->
